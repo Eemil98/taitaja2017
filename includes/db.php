@@ -4,7 +4,7 @@
 	$db = "MYSQLCONNSTR_localdb";
 	$dbuser = "azure";
 	$dbpass = "password";
-	$dbloc = "localhost";
+	$dbloc = "localhost:53189";
 	$mysql = mysqli_connect($dbloc, $dbuser, $dbpass, $db);
 /**/
 

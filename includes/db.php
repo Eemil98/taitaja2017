@@ -1,9 +1,9 @@
 
 <?php
 	
-	$db = "T2017051008";
-	$dbuser = "T2017051008";
-	$dbpass = "f0f895fb98";
+	$db = "localdb";
+	$dbuser = "azure";
+	$dbpass = "password";
 	$dbloc = "localhost";
 	$mysql = mysqli_connect($dbloc, $dbuser, $dbpass, $db);
 /**/

@@ -1,0 +1,2 @@
+define(["require","exports"],function(e,n){"use strict";function o(e){function n(){e(),window.removeEventListener("beforeunload",n)}window.addEventListener("beforeunload",n)}function t(e){function n(o){o.persisted&&(e(),window.removeEventListener("pageshow",n))}window.addEventListener("pageshow",n)}n.onBeforeUnload=o,n.onPageRestore=t});
+//# sourceMappingURL=window_util.min.js-vflWiPTdD.map

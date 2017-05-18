@@ -1,0 +1,2 @@
+define(["require","exports"],function(e,i){"use strict";(function(e){e[e.FetchPageSuccess=0]="FetchPageSuccess",e[e.InitializeFolder=1]="InitializeFolder",e[e.LoadStart=2]="LoadStart",e[e.LoadEnd=3]="LoadEnd"})(i.SharedLinkFolderAction||(i.SharedLinkFolderAction={}))});
+//# sourceMappingURL=constants.min.js-vflnH-r7Y.map

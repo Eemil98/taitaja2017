@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!-- saved from url=(0167)https://cfl.dropboxstatic.com/static/previews/pdf-js/pdf-js-9e9df56/web/viewer_maestro-vflWEwWFD.html?_subject_uid=undefined&annotation_highlight=1&annotation_region=1 -->
+<html dir="ltr" mozdisallowselectionprint="" moznomarginboxes="" class="maestro"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="referrer" content="origin">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="google" content="notranslate">
+    <title>Taitaja2017_logo - file</title>
+
+
+    <link rel="stylesheet" href="./viewer-vflVGmVcF.css">
+
+    <script src="./frame_messenger_client.min-vflLIEVPt.js.download"></script>
+    <script type="text/javascript">
+        var fm = new FrameMessenger();
+        var hasPreloaded = true;
+        fm.configureParentMessaging(function(m) {
+            if (m.action === 'preload-url' && hasPreloaded) {
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', m.parameters.url);
+                xhr.send();
+                hasPreloaded = false;
+                fm.postMessageToParent('preload-sent');
+            }
+        }, ['preload-url']);
+        fm.startListening();
+        fm.postMessageToParent('preload-ready');
+
+        // IE11 Fix. T71431
+        (function(print){
+             window.print = function() {
+                 window.focus();
+                 print();
+             }
+        })(window.print);
+    </script>
+
+    <script src="./jquery-1.10.2.min-vfl5u_JLo.js.download"></script>
+
+
+
+
+
+
+<!-- This snippet is used in production (included from viewer.html) -->
+<link rel="resource" type="application/l10n" href="https://cfl.dropboxstatic.com/static/previews/pdf-js/pdf-js-9e9df56/web/locale/locale.properties">
+<script src="./pdf.viewer-vflfYnlHG.js.download"></script>
+
+
+    <script>SCROLLBAR_PADDING=32</script>
+  </head>
+
+  <body tabindex="1">
+    <div id="close-x">
+      <div id="close-x-icon"></div>
+    </div>
+    <div id="outerContainer" class="">
+      <div id="mainContainer">
+
+        <div id="loadingBar" class="hidden" style="width: calc(100% - 17px);">
+          <div class="progress" style="height: 100%; width: 100%;">
+            <div class="glimmer">
+            </div>
+          </div>
+          <img id="loadingWheel" src="./spinner-blue-overlay.gif">
+        </div>
+
+        <div id="viewerContainer" tabindex="0">
+          <div id="viewer" class="pdfViewer enable-loading-spinner"><div id="pageContainer1" class="page" data-page-number="1" data-loaded="true" style="width: 1550px; height: 1107px;"><div class="canvasWrapper" style="width: 1550px; height: 1107px;"><canvas id="page1" width="1550" height="1107" style="width: 1550px; height: 1107px;"></canvas></div><div class="textLayer" style="width: 1550px; height: 1107px;"><div class="db-annotation-canvas-layer"><div data-reactroot="" class="ephemeral-annotation-container"></div></div></div></div></div>
+        </div>
+
+        <div id="errorWrapper" hidden="true">
+          <div id="errorMessageLeft">
+            <span id="errorMessage"></span>
+            <button id="errorShowMore" data-l10n-id="error_more_info">More Information</button>
+            <button id="errorShowLess" data-l10n-id="error_less_info" hidden="true">Less Information</button>
+          </div>
+          <div id="errorMessageRight">
+            <button id="errorClose" data-l10n-id="error_close">Close</button>
+          </div>
+          <div class="clearBoth"></div>
+          <textarea id="errorMoreInfo" hidden="true" readonly="readonly"></textarea>
+        </div>
+      </div> <!-- mainContainer -->
+
+      <div id="overlayContainer" class="hidden">
+        <div id="passwordOverlay" class="container hidden">
+          <div class="dialog">
+            <div class="row">
+              <p id="passwordText" data-l10n-id="password_label">Enter the password to open this PDF file.</p>
+            </div>
+            <div class="row">
+              <input type="password" id="password" class="toolbarField">
+            </div>
+            <div class="buttonRow">
+              <button id="passwordCancel" class="overlayButton"><span data-l10n-id="password_cancel">Cancel</span></button>
+              <button id="passwordSubmit" class="overlayButton"><span data-l10n-id="password_ok">OK</span></button>
+            </div>
+          </div>
+        </div>
+      </div>  <!-- overlayContainer -->
+
+    </div> <!-- outerContainer -->
+    <div id="printContainer"></div>
+<div id="mozPrintCallback-shim" hidden="">
+  <style>
+@media print {
+  #printContainer div {
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+}
+  </style>
+  <style scoped="">
+#mozPrintCallback-shim {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+
+  display: block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#mozPrintCallback-shim[hidden] {
+  display: none;
+}
+@media print {
+  #mozPrintCallback-shim {
+    display: none;
+  }
+}
+
+#mozPrintCallback-shim .mozPrintCallback-dialog-box {
+  display: inline-block;
+  margin: -50px auto 0;
+  position: relative;
+  top: 45%;
+  left: 0;
+  min-width: 220px;
+  max-width: 400px;
+
+  padding: 9px;
+
+  border: 1px solid hsla(0, 0%, 0%, .5);
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+
+  background-color: #474747;
+
+  color: hsl(0, 0%, 85%);
+  font-size: 16px;
+  line-height: 20px;
+}
+#mozPrintCallback-shim .progress-row {
+  clear: both;
+  padding: 1em 0;
+}
+#mozPrintCallback-shim progress {
+  width: 100%;
+}
+#mozPrintCallback-shim .relative-progress {
+  clear: both;
+  float: right;
+}
+#mozPrintCallback-shim .progress-actions {
+  clear: both;
+}
+  </style>
+  <div class="mozPrintCallback-dialog-box">
+    <!-- TODO: Localise the following strings -->
+    Preparing document for printing...
+    <div class="progress-row">
+      <progress value="0" max="100"></progress>
+      <span class="relative-progress">0%</span>
+    </div>
+    <div class="progress-actions">
+      <input type="button" value="Cancel" class="mozPrintCallback-cancel">
+    </div>
+  </div>
+</div>
+
+  
+
+
+<!-- @generated -->
+<input id="fileInput" class="fileInput" type="file"></body></html>

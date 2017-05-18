@@ -1,7 +1,7 @@
 
 <?php
 	
-	$db = "MYSQLCONNSTR_localdb";
+	$db = "localdb";
 	$dbuser = "azure";
 	$dbpass = "password";
 	$dbloc = "localhost:53189";
